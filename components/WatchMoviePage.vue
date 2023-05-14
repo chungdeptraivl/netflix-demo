@@ -9,7 +9,7 @@ export default {
   props: {
     // eslint-disable-next-line vue/require-default-prop
     data: {
-      type: Object,
+      type: Object, 
     },
   },
   computed: {

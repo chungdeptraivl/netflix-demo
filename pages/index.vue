@@ -9,7 +9,13 @@
     <v-container class="mb-5">
       <!-- Top Rate Movies -->
       <nuxt-link to="/movies" style="text-decoration: none">
-        <v-btn block dark class="mt-5 mb-2">
+        <v-btn
+          width="100%"
+          style="overflow: hidden"
+          block
+          dark
+          class="mt-5 mb-2"
+        >
           <h1>Top Rate Movies</h1>
         </v-btn>
       </nuxt-link>
@@ -30,7 +36,13 @@
 
       <!-- Up Coming Movies -->
       <nuxt-link to="/movies" style="text-decoration: none">
-        <v-btn block dark class="mt-5 mb-2">
+        <v-btn
+          width="100%"
+          style="overflow: hidden"
+          block
+          dark
+          class="mt-5 mb-2"
+        >
           <h1>Up Coming Movies</h1>
         </v-btn>
       </nuxt-link>
@@ -51,7 +63,13 @@
 
       <!-- Popular Movies -->
       <nuxt-link to="/movies" style="text-decoration: none">
-        <v-btn block dark class="mt-5 mb-2">
+        <v-btn
+          width="100%"
+          style="overflow: hidden"
+           block
+          dark
+          class="mt-5 mb-2"
+        >
           <h1>Popular Movies</h1>
         </v-btn>
       </nuxt-link>
